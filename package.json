@@ -1,0 +1,30 @@
+{
+    "name": "dicrypt",
+    "version": "1.0.0",
+    "description": "distributed backup system for ed25519 key pair",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack",
+        "test": "node test/test.js",
+        "jsdoc": "./node_modules/.bin/jsdoc -c ./jsdoc.json"
+    },
+    "author": "kunroku",
+    "license": "MIT",
+    "dependencies": {
+        "@types/ed2curve": "^0.2.2",
+        "@types/node": "^13.1.2",
+        "@types/scryptsy": "^2.0.0",
+        "ed2curve": "^0.3.0",
+        "scryptsy": "^2.1.0",
+        "shamirs-secret-sharing": "^1.0.1",
+        "tweetnacl": "^1.0.1"
+    },
+    "devDependencies": {
+        "@types/bs58": "^4.0.1",
+        "bs58": "^4.0.1",
+        "ts-loader": "^6.2.1",
+        "typescript": "^3.7.4",
+        "webpack": "^4.41.5",
+        "webpack-cli": "^3.3.10"
+    }
+}
