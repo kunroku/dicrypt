@@ -16,7 +16,7 @@ npm install @kunroku/dicrypt
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@kunroku/iost@1.0.0/dist/dicrypt.min.js"></script>
 ```
 
-exports to window.IOST global.
+exports to window.dicrypt global.
 
 
 ## API
