@@ -1,6 +1,7 @@
 {
-    "name": "dicrypt",
-    "version": "1.0.0",
+    "private": false,
+    "name": "@kunroku/dicrypt",
+    "version": "1.0.1",
     "description": "distributed backup system for ed25519 key pair",
     "main": "index.js",
     "scripts": {
@@ -8,8 +9,20 @@
         "test": "node test/test.js",
         "jsdoc": "./node_modules/.bin/jsdoc -c ./jsdoc.json"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kunroku/dicrypt.git"
+    },
+    "keywords": [
+        "blockchain",
+        "js"
+    ],
     "author": "kunroku",
     "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/kunroku/dicrypt/issues"
+    },
+    "homepage": "https://github.com/kunroku/dicrypt#readme",
     "dependencies": {
         "@types/ed2curve": "^0.2.2",
         "@types/node": "^13.1.2",
