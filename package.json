@@ -1,7 +1,7 @@
 {
     "private": false,
     "name": "@kunroku/dicrypt",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "distributed backup system for ed25519 key pair",
     "main": "index.js",
     "scripts": {
